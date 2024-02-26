@@ -1,0 +1,16 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    @media screen and (min-width: 768px) {
+        min-height: 70vh;
+    }
+}
+
+.heroText {
+    text-align: center;
+    .subtitle {
+        font-family: var(--subtitle);
+    }
+}
